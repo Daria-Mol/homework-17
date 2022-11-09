@@ -383,9 +383,12 @@ main{
 	}
 	
 }
-@media(max-width: 330px){
+@media(max-width: 365px){
 	.statistics-head__value{
 		font-size: 30px;
+	}
+	.main__head{
+		padding:220px 0px 20px 0px;
 	}
 }
 
@@ -682,8 +685,6 @@ main{
 	gap: 20px;
 
 	padding: 32px 0px;
-	
-
 }
 
 .card__subject {
@@ -726,7 +727,6 @@ main{
 @media (max-width:490px){
 	.card {
 		flex-direction: column;
-
 	}
 	.card__image {
 		flex-basis: 380px;
@@ -736,6 +736,14 @@ main{
 		height: 100%;
 		object-fit: cover;
 	}
+	.card__content{
+		padding: 20px 10px;
+		align-items: center;
+	}
+	.card__topic {
+		text-align: center;
+	}
+
 }
 @media (max-width:390px){
 	.card__image {
